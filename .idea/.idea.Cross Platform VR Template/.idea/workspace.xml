@@ -2,625 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae937eb9-9c36-4cc6-89fa-dd82ab4271ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_close_01a.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Audio/TestSounds/metal_sliding_door_open_01a.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Test.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AmbienceEmitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/AudioManager_Sound.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioImportPostProcessor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/AudioManagerInspector.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MinMaxPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/MixerSnapshotPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/OSPPropsPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/Editor/SoundFXRefPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/MinMaxAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundEmitter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFX.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Audio/SoundFXRef.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/Editor/DrawerInspectorNote.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/FastList.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/AudioManager/Scripts/Utils/InspectorNoteAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/LocalAvatar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/LocalAvatar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/RemoteAvatar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Content/Prefabs/RemoteAvatar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android32.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android32/libovravatarloader.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android32/libovravatarloader.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android64/libovravatarloader.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Plugins/Android64/libovravatarloader.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/AvatarGallery.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/AvatarGallery.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/AvatarGallery/Scripts/OvrAvatarTestDriver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/Controllers/Controllers.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/Controllers/Controllers.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/CrossPlatform.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/CrossPlatform.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/CrossPlatform/Readme.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/GripPoses.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/GripPoses.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/GripPoses/Scripts/PoseEditHelper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/LocalAvatar.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/LocalAvatar.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTarget.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTarget.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTargetSpawner.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Prefabs/GazeTargetSpawner.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/LocalAvatar/Scripts/GazeTargetSpawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/RemoteLoopback.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/RemoteLoopback.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/RemoteLoopback/Scripts/RemoteLoopbackManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/MainScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/MainScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/GearHelp.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/GearHelp.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Help.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Help.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Offline_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Offline_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Plane_Mat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Materials/Plane_Mat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/P2PManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/PlayerController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RemotePlayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/RoomManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/SocialPlatformManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Scripts/VoipManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/GearHelp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/GearHelp.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/Help.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/Assets/Textures/Help.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Samples/SocialStarter/README.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/GazeTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/GazeTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAsset.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetMesh.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarAssetTexture.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarBody.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarDriver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarHand.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLocalDriver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarLogger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarMaterialManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarPacket.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRemoteDriver.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarRenderComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKCAPI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSDKManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSettingsEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarSkinnedMeshRenderPBSV2Component.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTextureCopyManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatarTouchController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets/OfflineModel.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets/OfflineModel/ovrlipsync_offline_model.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Assets/OfflineModel/ovrlipsync_offline_model.pb.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01_lipSync.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Audio/vox_lp_01_lipSync.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncBuildPostProcessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncBuildPostProcessor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncContextMorphTargetEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncContextMorphTargetEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncTool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRLipSyncTool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRNamedArrayPropertyDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Editor/OVRNamedArrayPropertyDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbm/melinda_DIFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbm/melinda_DIFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Female.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/hair.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/hair.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/melinda_DIFF.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/melinda_DIFF.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/outerEyeShell.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/outerEyeShell.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/shirt.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/shirt.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/skin_DIFF.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/skin_DIFF.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/hair_NRM.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/hair_NRM.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_DIFF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_DIFF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_NRM.tga" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/FemaleHead_Morph/skin_NRM.tga.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/CH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/CH.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/DD.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/DD.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/E.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/FF.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/FF.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Head-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Head-2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/Head-2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/Head-2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/sil.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/Materials/sil.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/PP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/PP.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RR.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RR.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RobotHead_TextureFlip.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/RobotHead_TextureFlip.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/SS.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/SS.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/TH.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/TH.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/aa.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ih.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ih.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/kk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/kk.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/nn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/nn.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/oh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/oh.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/ou.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/sil.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Models/RobotHead_TextureFlip/sil.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android32.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android32/libOVRLipSync.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android32/libOVRLipSync.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android64/libOVRLipSync.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Android64/libOVRLipSync.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/MacOSX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/MacOSX/OVRLipSync.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Win64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Win64/OVRLipSync.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/Win64/OVRLipSync.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSync.dylib" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSync.dylib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSyncShim.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Plugins/iOS/libOVRLipSyncShim.a.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncDebugConsole.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncDebugConsole.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncInterface.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncInterface.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncMorphTarget_Female.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncTextureFlipTarget_Robot.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Prefabs/LipSyncTextureFlipTarget_Robot.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/LipSync_Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/EnableSwitch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_Control.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scenes/Scripts/LipSyncDemo_SetCurrentTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRLipSyncDebugConsole.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRNamedArrayAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/Helpers/OVRTouchpad.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSync.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSync.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextCanned.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextMorphTarget.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncContextTextureFlip.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncMicInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/LipSync/Scripts/OVRLipSyncSequence.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/arm64-v8a/libAudioPluginOculusSpatializer.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/Android/libs/armeabi-v7a/libAudioPluginOculusSpatializer.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/AudioPluginOculusSpatializer.bundle/Contents/MacOS/AudioPluginOculusSpatializer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86/AudioPluginOculusSpatializer.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/Plugins/x86_64/AudioPluginOculusSpatializer.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdater.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioPluginUpdaterStub.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPAudioSourceEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationGeometryEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationMaterialEditor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPPropagationSerializationManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/editor/ONSPReflectionCustomGUI.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/RedBallGreenBall.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/3rd Person Controller.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/First Person Controller.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Constructor.FBX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Textures/constructor_diffuse.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/PlatformInputController.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/YellowBall.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/AmbisonicObject1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/Ground.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/materials/SpatializedObject2.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/mixers/SpatializerMixer.mixer.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/360 Workstation Ambisonic Panning AmbiX.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/car.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/hammer.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/horse.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/loop.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/noise.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/scraping.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/sine.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/speech.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/uss.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/uss.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/vocal1.ogg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scenes/sounds/water.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAmbisonicsNative.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPAudioSource.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPProfiler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationGeometry.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationInterface.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationMaterial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPPropagationSettings.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/ONSPVersion.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/OculusSpatializerUnity.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Spatializer/scripts/helpers/ONSPReflectionZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Android/OVRPlugin.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Android/OVRPlugin.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/AndroidUniversal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/AndroidUniversal/OVRPlugin.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/AndroidUniversal/OVRPlugin.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Win.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Win/OVRPlugin.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Win/OVRPlugin.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Win64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Win64/OVRPlugin.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/1.39.0/Win64/OVRPlugin.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/placeholder.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Plugins/placeholder.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Audio.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Audio/vox_lp_01.wav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Audio/vox_lp_01.wav.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Android32.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Android32/libOVRVoiceMod.so" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Android32/libOVRVoiceMod.so.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/Info.plist.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/MacOS.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/MacOS/OVRVoiceMod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/MacOSX/OVRVoiceMod.bundle/Contents/MacOS/OVRVoiceMod.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win32.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win32/OVRVoiceMod.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win32/OVRVoiceMod.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win64.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win64/OVRVoiceMod.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Plugins/Win64/OVRVoiceMod.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRCameraWithDebug.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRCameraWithDebug.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsole.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsole.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsoleOutput.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRDebugConsoleOutput.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRVoiceModInterface.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Prefabs/OVRVoiceModInterface.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Materials/Color.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Materials/Color.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModDemo_Logic.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModEnableSwitch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/Scripts/VoiceModEnableSwitch.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/VoiceMod_Demo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scenes/VoiceMod_Demo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRDebugConsole.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMessenger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/Helpers/OVRMicInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceMod.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VoiceMod/Scripts/OVRVoiceModContext.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/1.39.0.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Android.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Android/OVRPlugin.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Android/OVRPlugin.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/AndroidUniversal.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/AndroidUniversal/OVRPlugin.aar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/AndroidUniversal/OVRPlugin.aar.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win/OVRPlugin.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win/OVRPlugin.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win64.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win64.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win64/OVRPlugin.dll.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/1.39.0/Win64/OVRPlugin.dll.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MacOSX.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MacOSX.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents/Info.plist.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/MacOSX/OVRGamepad.bundle/Contents/MacOS/OVRGamepad.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/placeholder.txt.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/placeholder.txt.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cross Platform VR Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cross Platform VR Template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRBoundary.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRBoundary.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRHaptics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRHaptics.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRHapticsClip.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRHapticsClip.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRInputModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/OVRInputModule.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/Platform/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/OVRBuildConfig.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grabber.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -633,14 +36,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grabber.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="330">
+              <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
               <folding>
-                <marker date="1564934222157" expanded="false" signature="6:78" ph="..." />
-                <marker date="1564934222157" expanded="true" signature="116:378" ph="{...}" />
-                <marker date="1564934222157" expanded="true" signature="188:209" ph="{...}" />
-                <marker date="1564934222157" expanded="true" signature="267:376" ph="{...}" />
-                <marker date="1564934222157" expanded="true" signature="330:370" ph="{...}" />
+                <marker date="1564958451595" expanded="false" signature="6:78" ph="..." />
+                <marker date="1564958451595" expanded="true" signature="119:776" ph="{...}" />
+                <marker date="1564958451595" expanded="true" signature="221:242" ph="{...}" />
+                <marker date="1564958451595" expanded="true" signature="300:774" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+              <folding>
+                <marker date="1564958452717" expanded="false" signature="6:78" ph="..." />
+                <marker date="1564958452717" expanded="true" signature="117:1799" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="160:243" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="280:361" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="398:480" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="516:596" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="645:736" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="787:876" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="928:1017" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1067:1154" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1183:1248" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1281:1346" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1379:1444" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1477:1542" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1589:1668" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1714:1792" ph="{...}" />
+                <marker date="1564958452717" expanded="true" signature="1825:1852" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -653,10 +83,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabber.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grabber.cs" />
       </list>
     </option>
@@ -673,12 +106,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Oculus" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Oculus" type="1045f7f1:UnityExplorerNode" />
+              <item name="VR" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
       </pane>
       <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
@@ -729,11 +182,15 @@
       <updated>1564930758303</updated>
       <workItem from="1564930764725" duration="57000" />
       <workItem from="1564930845481" duration="1703000" />
+      <workItem from="1564943417453" duration="41000" />
+      <workItem from="1564943496802" duration="639000" />
+      <workItem from="1564949706022" duration="145000" />
+      <workItem from="1564949869574" duration="5284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1760000" />
+    <option name="totallyTimeSpent" value="7869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -748,7 +205,7 @@
     <frame x="3613" y="364" width="2186" height="1196" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25211665" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261524" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -794,16 +251,464 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/Scripts/OVRInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230">
+          <caret line="326" column="29" selection-start-line="326" selection-start-column="29" selection-end-line="326" selection-end-column="29" />
+          <folding>
+            <marker date="1564938158117" expanded="true" signature="0:971" ph="/* Copyright : Copyright (c) Facebook Technologies, LLC and its affiliates. All rights reserved. ... */" />
+            <marker date="1564938158117" expanded="false" signature="979:1262" ph="..." />
+            <marker date="1564938158117" expanded="true" signature="1409:1510" ph="/// Provides a unified input system for Oculus controllers and gamepads. ... " />
+            <marker date="1564938158117" expanded="true" signature="1539:143819" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="1672:7613" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="7733:12971" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="13142:15757" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="15886:18529" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="18541:18814" ph="/* Virtual near touch mappings that allow the same input bindings to work across different controllers with near  ... */" />
+            <marker date="1564938158117" expanded="true" signature="18837:19900" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="20027:21280" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="21432:22444" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="22584:23599" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="23753:24736" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="24878:25883" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="25961:26119" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="26241:27654" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="27679:27876" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="28590:29046" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="28599:29043" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="28650:28995" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="29049:29116" ph="/// Creates an instance of OVRInput. ... " />
+            <marker date="1564938158117" expanded="true" signature="29135:29731" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="29185:29706" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="29734:29871" ph="/// Updates the internal state of OVRInput. Must be called manually if used independently from OVRManager. ... " />
+            <marker date="1564938158117" expanded="true" signature="29900:32026" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="30073:30145" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="30192:30645" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="30368:30641" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="30569:30636" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="30744:30987" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="30822:30983" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="31050:31101" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="31240:31517" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="31312:31376" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="31449:31513" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="31616:31894" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="31962:32022" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="32029:32174" ph="/// Updates the internal physics state of OVRInput. Must be called manually if used independently from OVRManager ... " />
+            <marker date="1564938158117" expanded="true" signature="32208:32445" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="32448:32660" ph="/// Returns true if the given Controller's orientation is currently tracked. ... " />
+            <marker date="1564938158117" expanded="true" signature="32748:33089" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="32777:33086" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="33092:33302" ph="/// Returns true if the given Controller's orientation is currently valid. ... " />
+            <marker date="1564938158117" expanded="true" signature="33388:33725" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="33417:33722" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="33729:33938" ph="/// Returns true if the given Controller's position is currently tracked. ... " />
+            <marker date="1564938158117" expanded="true" signature="34023:34358" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="34052:34355" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="34361:34568" ph="/// Returns true if the given Controller's position is currently valid. ... " />
+            <marker date="1564938158117" expanded="true" signature="34651:34982" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="34680:34979" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="34985:35202" ph="/// Gets the position of the given Controller local to its tracking space. ... " />
+            <marker date="1564938158117" expanded="true" signature="35288:36589" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="35317:36586" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="35672:35956" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="36308:36545" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="36592:36816" ph="/// Gets the linear velocity of the given Controller local to its tracking space. ... " />
+            <marker date="1564938158117" expanded="true" signature="36902:37615" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="36967:37612" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="37189:37223" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="37232:37270" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="37490:37524" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="37533:37571" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="37618:37846" ph="/// Gets the linear acceleration of the given Controller local to its tracking space. ... " />
+            <marker date="1564938158117" expanded="true" signature="37936:38642" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="37998:38639" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="38221:38252" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="38261:38299" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="38520:38551" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="38560:38598" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="38645:38869" ph="/// Gets the rotation of the given Controller local to its tracking space. ... " />
+            <marker date="1564938158117" expanded="true" signature="38958:40267" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="38987:40264" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="39348:39602" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="39960:40216" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="40270:40534" ph="/// Gets the angular velocity of the given Controller local to its tracking space in radians per second around ea ... " />
+            <marker date="1564938158117" expanded="true" signature="40627:41354" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="40692:41351" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="40921:40955" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="40964:41002" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="41229:41263" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="41272:41310" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="41357:41636" ph="/// Gets the angular acceleration of the given Controller local to its tracking space in radians per second per s ... " />
+            <marker date="1564938158117" expanded="true" signature="41733:42453" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="41795:42450" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="42025:42056" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="42065:42103" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="42331:42362" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="42371:42409" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="42456:42574" ph="/// Gets the dominant hand that the user has specified in settings, for mobile devices. ... " />
+            <marker date="1564938158117" expanded="true" signature="42618:42675" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="42678:42873" ph="/// Gets the current state of the given virtual button mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="42964:43043" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="43046:43238" ph="/// Gets the current state of the given raw button mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="43328:43400" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="43506:43998" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="43648:43978" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="43778:43974" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="43939:43969" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="44001:44268" ph="/// Gets the current down state of the given virtual button mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="44363:44446" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="44449:44712" ph="/// Gets the current down state of the given raw button mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="44806:44882" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="44992:45690" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="45156:45671" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="45286:45667" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="45448:45479" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="45632:45662" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="45693:45959" ph="/// Gets the current up state of the given virtual button mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="46052:46133" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="46136:46398" ph="/// Gets the current up state of the given raw button mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="46490:46564" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="46672:47363" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="46834:47346" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="46964:47342" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="47125:47156" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="47309:47337" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="47366:47559" ph="/// Gets the current state of the given virtual touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="47649:47726" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="47729:47919" ph="/// Gets the current state of the given raw touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="48008:48078" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="48181:48671" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="48323:48651" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="48453:48647" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="48612:48642" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="48674:48938" ph="/// Gets the current down state of the given virtual touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="49032:49113" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="49116:49376" ph="/// Gets the current down state of the given raw touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="49469:49543" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="49650:50344" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="49814:50325" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="49944:50321" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="50104:50135" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="50286:50316" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="50347:50610" ph="/// Gets the current up state of the given virtual touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="50702:50781" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="50784:51043" ph="/// Gets the current up state of the given raw touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="51134:51206" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="51311:51998" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="51473:51981" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="51603:51977" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="51762:51793" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="51944:51972" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="52001:52204" ph="/// Gets the current state of the given virtual near touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="52298:52383" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="52386:52586" ph="/// Gets the current state of the given raw near touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="52679:52757" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="52872:53374" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="53014:53354" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="53144:53350" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="53315:53345" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="53377:53656" ph="/// Gets the current down state of the given virtual near touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="53754:53843" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="53846:54121" ph="/// Gets the current down state of the given raw near touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="54218:54300" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="54419:55141" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="54583:55122" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="54713:55118" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="54885:54916" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="55083:55113" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="55144:55422" ph="/// Gets the current up state of the given virtual near touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="55518:55605" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="55608:55882" ph="/// Gets the current up state of the given raw near touch mask with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="55977:56057" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="56174:56889" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="56336:56872" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="56466:56868" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="56637:56668" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="56835:56863" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="56892:57131" ph="/// Gets the current state of the given virtual 1-dimensional axis mask on the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="57223:57302" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="57305:57540" ph="/// Gets the current state of the given raw 1-dimensional axis mask on the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="57631:57703" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="57810:59438" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="57977:59416" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="58216:59412" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="58358:58580" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="58635:58857" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="58911:59132" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="59186:59407" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="59441:59682" ph="/// Gets the current state of the given virtual 2-dimensional axis mask on the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="59776:59855" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="59858:60095" ph="/// Gets the current state of the given raw 2-dimensional axis mask on the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="60188:60260" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="60369:62267" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="60546:62245" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="60785:62241" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="60925:61214" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="61265:61554" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="61398:61500" ph="/* if (controller.shouldApplyDeadzone) ... */" />
+            <marker date="1564938158117" expanded="true" signature="61607:61896" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="61947:62236" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="62080:62182" ph="/* if (controller.shouldApplyDeadzone) ... */" />
+            <marker date="1564938158117" expanded="true" signature="62270:62364" ph="/// Returns a mask of all currently connected controller types. ... " />
+            <marker date="1564938158117" expanded="true" signature="62416:62457" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="62460:62564" ph="/// Returns true if the specified controller type is currently connected. ... " />
+            <marker date="1564938158117" expanded="true" signature="62629:62699" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="62702:62780" ph="/// Returns the current active controller type. ... " />
+            <marker date="1564938158117" expanded="true" signature="62828:62865" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="62956:63371" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="63314:63368" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="63876:63964" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="64043:64325" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="64452:64610" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="64613:64715" ph="/// Sets OpenVR left and right controller poses local to tracking space ... " />
+            <marker date="1564938158117" expanded="true" signature="64830:65060" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="65063:65232" ph="/// Accesses OpenVR properties about a given deviceID. Especially useful for differentiating per type of OpenVR d ... " />
+            <marker date="1564938158117" expanded="true" signature="65380:65999" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="65561:65983" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="65680:65871" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="66002:66132" ph="/// Associates OpenVR device IDs with left and right motion controllers, for later haptic playback. ... " />
+            <marker date="1564938158117" expanded="true" signature="66181:68265" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="66247:68262" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="66507:68258" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="66590:68253" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="66786:68247" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="67524:67848" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="67916:68240" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="68268:68361" ph="/// Runs once a frame to update cross-platform haptic playback ... " />
+            <marker date="1564938158117" expanded="true" signature="68410:68878" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="68476:68875" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="68529:68870" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="68573:68865" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="68800:68859" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="68917:69070" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="69021:69067" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="69144:69529" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="69248:69526" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="69586:69676" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="69679:69898" ph="/// Activates vibration with the given frequency and amplitude with the given controller mask. ... " />
+            <marker date="1564938158117" expanded="true" signature="70022:70802" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="70088:70450" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="70234:70446" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="70367:70441" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="70518:70799" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="70605:70795" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="70805:71098" ph="/// Triggers a recenter to realign the specified controller's virtual pose with the user's real-world pose. ... " />
+            <marker date="1564938158117" expanded="true" signature="71184:71510" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="71326:71507" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="71456:71503" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="71513:71776" ph="/// Returns true if the specified controller was recentered this frame. ... " />
+            <marker date="1564938158117" expanded="true" signature="71870:72264" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="72043:72236" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="72173:72232" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="72267:72667" ph="/// Returns the number of times the controller has been recentered this session. ... " />
+            <marker date="1564938158117" expanded="true" signature="72761:73164" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="72930:73136" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="73060:73132" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="73167:73459" ph="/// Returns the battery percentage remaining for the specified controller. Values range from 0 to 100. ... " />
+            <marker date="1564938158117" expanded="true" signature="73563:73958" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="73726:73936" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="73856:73932" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="74021:74135" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="74192:74312" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="74382:74581" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="74647:74842" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="74942:75376" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="75029:75056" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="75326:75354" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="75419:92245" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="75454:80352" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="77588:80348" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="80384:82342" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="81243:82338" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="82378:83322" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="82789:83318" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="83355:84238" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="83730:84234" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="84271:85134" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="84646:85130" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="85748:85883" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="85921:87654" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="87744:90968" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="87947:89378" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="88574:88700" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="88796:88922" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="89505:90946" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="90136:90264" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="90360:90488" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91048:91137" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91181:91263" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91302:91327" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91369:91390" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91442:91463" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91748:91800" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91855:91906" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="91969:92024" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="92081:92133" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="92190:92242" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="92300:96981" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="92333:92379" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="92424:94446" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="94490:95245" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="95293:95652" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="95697:96024" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="96069:96376" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="96416:96562" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="96605:96690" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="96743:96978" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="97037:101320" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="97071:97118" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="97163:99124" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="99168:99907" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="99955:100296" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="100341:100651" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="100696:100996" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="101036:101117" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="101160:101207" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="101260:101317" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="101376:105658" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="101410:101457" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="101502:103462" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="103506:104245" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="104293:104634" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="104679:104989" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105034:105334" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105374:105455" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105498:105545" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105598:105655" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105714:109515" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105748:105795" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="105840:107728" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="107772:108495" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="108543:108846" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="108891:109179" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="109224:109512" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="109574:113584" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="109611:109659" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="109704:111735" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="111779:112502" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="112550:112873" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="112918:113229" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="113274:113581" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="113644:123283" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="113721:113878" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="113956:114124" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="114198:114300" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="114330:114408" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="114447:118142" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="114472:114510" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="118187:120218" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="120262:120985" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="121033:121356" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="121401:121712" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="121757:122064" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="122145:122382" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="123347:127362" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="123389:123437" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="123482:125513" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="125557:126280" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="126328:126651" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="126696:127007" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="127052:127359" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="127420:132627" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="127580:127629" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="127668:128883" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="127774:127825" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="127890:128863" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128150:128296" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128338:128858" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128435:128632" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128467:128540" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128551:128625" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128658:128852" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128690:128763" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128774:128845" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="128928:130825" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="130869:131602" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="131650:131953" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="131998:132286" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="132331:132624" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="132691:138222" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="132842:132897" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="132942:134856" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="134900:135642" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="135690:135993" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="136038:136343" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="136388:136681" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="136720:137898" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="136832:136905" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="136979:137012" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137096:137878" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137353:137873" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137450:137647" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137482:137555" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137566:137640" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137673:137867" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137705:137778" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137789:137860" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="137938:138019" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="138062:138109" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="138162:138219" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="138286:143817" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="138437:138492" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="138537:140451" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="140495:141237" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="141285:141588" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="141633:141938" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="141983:142276" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="142315:143493" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="142427:142500" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="142574:142607" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="142691:143473" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="142948:143468" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143045:143242" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143077:143150" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143161:143235" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143268:143462" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143300:143373" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143384:143455" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143533:143614" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143657:143704" ph="{...}" />
+            <marker date="1564938158117" expanded="true" signature="143757:143814" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="4" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <marker date="1564958452717" expanded="false" signature="6:78" ph="..." />
+            <marker date="1564958452717" expanded="true" signature="117:1799" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="160:243" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="280:361" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="398:480" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="516:596" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="645:736" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="787:876" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="928:1017" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1067:1154" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1183:1248" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1281:1346" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1379:1444" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1477:1542" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1589:1668" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1714:1792" ph="{...}" />
+            <marker date="1564958452717" expanded="true" signature="1825:1852" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grabber.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="330">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
-            <marker date="1564934222157" expanded="false" signature="6:78" ph="..." />
-            <marker date="1564934222157" expanded="true" signature="116:378" ph="{...}" />
-            <marker date="1564934222157" expanded="true" signature="188:209" ph="{...}" />
-            <marker date="1564934222157" expanded="true" signature="267:376" ph="{...}" />
-            <marker date="1564934222157" expanded="true" signature="330:370" ph="{...}" />
+            <marker date="1564958451595" expanded="false" signature="6:78" ph="..." />
+            <marker date="1564958451595" expanded="true" signature="119:776" ph="{...}" />
+            <marker date="1564958451595" expanded="true" signature="221:242" ph="{...}" />
+            <marker date="1564958451595" expanded="true" signature="300:774" ph="{...}" />
           </folding>
         </state>
       </provider>

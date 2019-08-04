@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.ide.rider": "1.0.8",
     "com.unity.ide.visualstudio": "1.0.11",
     "com.unity.ide.vscode": "1.0.7",
     "com.unity.package-manager-ui": "2.2.0",

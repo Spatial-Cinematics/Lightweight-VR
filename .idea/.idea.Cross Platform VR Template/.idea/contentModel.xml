@@ -15,61 +15,6 @@
               <e p="OculusPluginUpdaterStub.cs" t="Include" />
               <e p="OculusStandalonePlatformResponse.cs" t="Include" />
             </e>
-            <e p="Samples" t="Include">
-              <e p="EntitlementCheck" t="Include">
-                <e p="EntitlementCheck.cs" t="Include" />
-              </e>
-              <e p="NetChat" t="Include">
-                <e p="DataEntry.cs" t="Include" />
-              </e>
-              <e p="SimplePlatformSample" t="Include">
-                <e p="DataEntry.cs" t="Include" />
-              </e>
-              <e p="VrBoardGame" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="BoardPosition.cs" t="Include" />
-                  <e p="EyeCamera.cs" t="Include" />
-                  <e p="GameBoard.cs" t="Include" />
-                  <e p="GameController.cs" t="Include" />
-                  <e p="GamePiece.cs" t="Include" />
-                  <e p="IAPManager.cs" t="Include" />
-                  <e p="MatchmakingManager.cs" t="Include" />
-                  <e p="PlatformManager.cs" t="Include" />
-                </e>
-              </e>
-              <e p="VrHoops" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="AchievementsManager.cs" t="Include" />
-                  <e p="AIPlayer.cs" t="Include" />
-                  <e p="BallEjector.cs" t="Include" />
-                  <e p="Camera2DController.cs" t="Include" />
-                  <e p="DetectBasket.cs" t="Include" />
-                  <e p="FlyText.cs" t="Include" />
-                  <e p="GoalMover.cs" t="Include" />
-                  <e p="LeaderboardManager.cs" t="Include" />
-                  <e p="LocalPlayer.cs" t="Include" />
-                  <e p="MatchController.cs" t="Include" />
-                  <e p="MatchmakingManager.cs" t="Include" />
-                  <e p="P2PManager.cs" t="Include" />
-                  <e p="P2PNetworkBall.cs" t="Include" />
-                  <e p="P2PNetworkGoal.cs" t="Include" />
-                  <e p="PlatformManager.cs" t="Include" />
-                  <e p="Player.cs" t="Include" />
-                  <e p="PlayerArea.cs" t="Include" />
-                  <e p="RemotePlayer.cs" t="Include" />
-                  <e p="VREyeRaycaster.cs" t="Include" />
-                </e>
-              </e>
-              <e p="VrVoiceChat" t="Include">
-                <e p="Scripts" t="Include">
-                  <e p="P2PManager.cs" t="Include" />
-                  <e p="PlatformManager.cs" t="Include" />
-                  <e p="RoomManager.cs" t="Include" />
-                  <e p="VoipManager.cs" t="Include" />
-                  <e p="VREyeRaycaster.cs" t="Include" />
-                </e>
-              </e>
-            </e>
             <e p="Scripts" t="Include">
               <e p="AbuseReportOptions.cs" t="Include" />
               <e p="AbuseReportType.cs" t="Include" />
@@ -202,6 +147,9 @@
               <e p="WindowsPlatform.cs" t="Include" />
             </e>
           </e>
+          <e p="Plugins" t="Include">
+            <e p="placeholder.txt" t="Include" />
+          </e>
           <e p="VR" t="Include">
             <e p="Editor" t="Include">
               <e p="AndroidManifest.OVRSubmission.xml" t="Include" />
@@ -229,22 +177,6 @@
             <e p="LICENSE.txt" t="Include" />
             <e p="NOTICE.txt" t="Include" />
             <e p="Oculus.VR.asmdef" t="Include" />
-            <e p="Plugins" t="Include">
-              <e p="placeholder.txt" t="Include" />
-            </e>
-            <e p="Resources" t="Include">
-              <e p="Cubemap Blit.shader" t="Include" />
-              <e p="OVRMRCameraFrame.shader" t="Include" />
-              <e p="OVRMRCameraFrameLit.shader" t="Include" />
-              <e p="OVRMRChromaKey.cginc" t="Include" />
-              <e p="OVRMRClipPlane.shader" t="Include" />
-              <e p="OVRMRUnlit.shader" t="Include" />
-              <e p="OVRMRUnlitTransparent.shader" t="Include" />
-              <e p="Texture2D Blit.shader" t="Include" />
-              <e p="Underlay Impostor.shader" t="Include" />
-              <e p="Underlay Transparent Occluder.shader" t="Include" />
-              <e p="Unlit Transparent Color.shader" t="Include" />
-            </e>
             <e p="Scripts" t="Include">
               <e p="Composition" t="Include">
                 <e p="OVRCameraComposition.cs" t="Include" />
@@ -310,10 +242,6 @@
                 <e p="OVRWaitCursor.cs" t="Include" />
               </e>
             </e>
-            <e p="Shaders" t="Include">
-              <e p="OVRColorRampAlpha.shader" t="Include" />
-              <e p="Unlit Crosshair.shader" t="Include" />
-            </e>
             <e p="ThirdParty" t="Include">
               <e p="openvr_api.cs" t="Include" />
               <e p="SimpleJSON.cs" t="Include" />
@@ -321,13 +249,9 @@
             </e>
           </e>
         </e>
-        <e p="OVRBoundary.cs" t="Include" />
-        <e p="OVRHaptics.cs" t="Include" />
-        <e p="OVRHapticsClip.cs" t="Include" />
-        <e p="OVRInput.cs" t="Include" />
-        <e p="OVRInputModule.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Grabber.cs" t="Include" />
+          <e p="VRInput.cs" t="Include" />
         </e>
       </e>
       <e p="Cross Platform VR Template.sln" t="IncludeFlat" />
