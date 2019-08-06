@@ -1,39 +1,88 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 
-
+[RequireComponent(typeof(SphereCollider))]
 public class Grabber : MonoBehaviour {
 
-    public Material mat;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    [HideInInspector]
+    public Transform grabbedTransform;
+    public Handedness handedness;
+
+    [SerializeField]
+    private List<Transform> inRange = new List<Transform>();
+    private Rigidbody rb;
+    private float grabThreshold = .5f;
+
+    private void Start() {
+        rb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //check input for this hand instance
+        float grabValue = handedness == Handedness.Left ? VRInput.LeftHand() : VRInput.RightHand();
 
-        if (VRInput.A())
-            print("A");
-        if (VRInput.B())
-            print("B");
-        if (VRInput.X())
-            print("X");
-        if (VRInput.Y())
-            print("Y");
-        if (VRInput.RightThumbClick())
-            print("Right");
-        if (VRInput.LeftThumbClick())
-            print("Left");
+        if (grabValue > grabThreshold) { //grab input
+            if (!grabbedTransform)
+                Grab();
+        }
+        else if (grabbedTransform) { //no grab input and item is being held
+            Drop();
+        }
+
+    }
+    
+    //create list of grabbable transforms in range of hand
+    private void OnTriggerEnter(Collider other) {
+
+        Grabbable grabbable = other.GetComponent<Grabbable>();
         
-        if (!mat)
+        if (!grabbable)
             return;
         
-        mat.color = Color.Lerp(Color.red, Color.blue, VRInput.RightIndex());
+        inRange.Add(grabbable.transform);
+        
     }
+
+    private void OnTriggerExit(Collider other) {
+        
+        Grabbable grabbable = other.GetComponent<Grabbable>();
+        
+        if (!grabbable)
+            return;
+
+        inRange.Remove(grabbable.transform);
+
+    }
+
+    private void Grab() {
+        
+            //closest grabbable transform out of in range grabbable transforms
+            Transform closest = null;
+            
+            //find closest
+            if (inRange.Count > 0) {
+                closest = inRange.Aggregate((i1, i2) =>
+                    transform.Distance(i1) < transform.Distance(i2) ? i1 : i2);
+            }
+
+            if (closest) { // an item is in range - pick it up
+                grabbedTransform = closest;
+                closest.GetComponent<Grabbable>().OnGrab(this);
+            }
+        
+    }
+
+    private void Drop() {
+        
+        if (!grabbedTransform)
+            return;
+        
+        grabbedTransform.GetComponent<Grabbable>().OnDrop(this);
+        
+    }
+    
 }
