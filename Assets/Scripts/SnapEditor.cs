@@ -26,7 +26,7 @@ public class SnapEditor : Editor
         Transform t1 = hands[0].transform;
         Transform t2 = hands[1].transform;
         Transform closestHand = t1.Distance(transform) < t2.Distance(transform) ? t1 : t2;
-
+        //set reference, cache orientation, and return to original state
         Transform tmpParent = transform.parent;
         transform.parent = closestHand;
         snap.snapPosition = transform.localPosition;

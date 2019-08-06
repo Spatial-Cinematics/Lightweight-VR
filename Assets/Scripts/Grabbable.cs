@@ -10,7 +10,7 @@ using UnityEngine.Events;
 using UnityEngine.Serialization;
 
 
-public enum Handedness {Left, Right, None}
+public enum Handedness {None, Left, Right}
 
 [RequireComponent(typeof(Collider))]
 [RequireComponent(typeof(Rigidbody))]
@@ -30,10 +30,13 @@ public class Grabbable : MonoBehaviour {
     }
     
     public void OnGrab(Grabber hand) {
+
+        print("Grabbed by: " + hand.name);
         
-        if (myHand && hand != myHand)
+        //drop from other hand if already being held
+        if (myHand)
             OnDrop(myHand);
-        
+
         transform.parent = hand.transform;
         handedness = hand.handedness;
         myHand = hand;
@@ -43,11 +46,14 @@ public class Grabbable : MonoBehaviour {
         
         if (snap) //returns false if snap == null
             snap.Snap();
+        
+        
 
     }
 
     public void OnDrop(Grabber hand) {
 
+        
         handedness = Handedness.None;
         myHand = null;
         hand.grabbedTransform = null;
@@ -57,7 +63,5 @@ public class Grabbable : MonoBehaviour {
         onSpecialDrop?.Invoke();
         
     }
-
-
     
 }

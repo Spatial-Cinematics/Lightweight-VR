@@ -471,7 +471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabbedTransform: {fileID: 0}
-  handedness: 1
+  handedness: 2
   inRange: []
 --- !u!114 &229635607
 MonoBehaviour:
@@ -1208,7 +1208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabbedTransform: {fileID: 0}
-  handedness: 0
+  handedness: 1
   inRange: []
 --- !u!114 &1284983691
 MonoBehaviour:
