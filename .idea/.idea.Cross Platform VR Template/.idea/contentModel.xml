@@ -250,7 +250,21 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ExtensionMethods" t="Include">
+            <e p="AudioSourceExtensions.cs" t="Include" />
+            <e p="FloatExtensions.cs" t="Include" />
+            <e p="IntExtensions.cs" t="Include" />
+            <e p="ListExtensions.cs" t="Include" />
+            <e p="MaterialExtensions.cs" t="Include" />
+            <e p="QuaternionExtensions.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+            <e p="TransformExtension.cs" t="Include" />
+            <e p="Vector3Extensions.cs" t="Include" />
+          </e>
+          <e p="Grabbable.cs" t="Include" />
           <e p="Grabber.cs" t="Include" />
+          <e p="SnapEditor.cs" t="Include" />
+          <e p="SnapOnGrab.cs" t="Include" />
           <e p="VRInput.cs" t="Include" />
         </e>
       </e>
