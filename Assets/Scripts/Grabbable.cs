@@ -22,6 +22,7 @@ public class Grabbable : MonoBehaviour {
 
     [HideInInspector]
     public Handedness handedness;
+    public UnityEvent onUse;
     public UnityEvent onSpecialGrab;
     public UnityEvent onSpecialDrop;
     
@@ -29,7 +30,7 @@ public class Grabbable : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         snap = GetComponent<SnapOnGrab>();
     }
-    
+
     public void OnGrab(Grabber hand) {
 
         print("Grabbed by: " + hand.name);
@@ -47,8 +48,6 @@ public class Grabbable : MonoBehaviour {
         
         if (snap) //returns false if snap == null
             snap.Snap();
-        
-        
 
     }
 
@@ -64,5 +63,5 @@ public class Grabbable : MonoBehaviour {
         onSpecialDrop?.Invoke();
         
     }
-    
+
 }

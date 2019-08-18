@@ -11,33 +11,16 @@ public class Grabber : MonoBehaviour {
     public Transform grabbedTransform;
     public Handedness handedness;
 
-    [SerializeField]
+    [SerializeField, HideInInspector]
     private List<Transform> inRange = new List<Transform>();
     private Rigidbody rb;
-    private float grabThreshold = .5f;
+    [SerializeField]
+    private float inputThreshold = .5f; // pulled half way
 
-    private void Start() {
-        rb = GetComponent<Rigidbody>();
-    }
-
-    void Update()
-    {
-        //check input for this hand instance
-        float grabValue = VRInput.Get(handedness == Handedness.Left ? VRButton.LeftHand : VRButton.RightHand);
-
-        if (VRInput.GetOnce(VRButton.RightHand))
-            Debug.Break();
-        
-        if (grabValue > grabThreshold) { //grab input
-            if (!grabbedTransform)
-                Grab();
-        }
-        else if (grabbedTransform) { //no grab input and item is being held
-                Drop();
-        }
-
-    }
+    private float indexInput, handInput;
     
+    #region Reference Grabable Items
+
     //create list of grabbable transforms in range of hand
     private void OnTriggerEnter(Collider other) {
 
@@ -61,6 +44,50 @@ public class Grabber : MonoBehaviour {
 
     }
 
+    #endregion
+    
+    private void Start() {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void Update()
+    {
+        
+        UpdateInputs();
+        CheckGrab();
+        
+    }
+
+    private void UpdateInputs() {
+
+        handInput = VRInput.Get(GenericVRButton.Hand, handedness);
+        indexInput = VRInput.Get(GenericVRButton.Index, handedness);
+
+    }
+
+    private void CheckGrab() {
+
+        if (grabbedTransform) {
+
+            if (indexInput > inputThreshold) 
+                UseGrabbed();
+            
+            
+            if (handInput < inputThreshold)
+                Drop();
+            
+        } else {
+            
+            if (handInput > inputThreshold)
+                Grab();
+            
+        }
+    }
+
+    private void UseGrabbed() {
+        grabbedTransform.GetComponent<MeshRenderer>().material.color = Random.ColorHSV();
+    }
+    
     private void Grab() {
         
             //closest grabbable transform out of in range grabbable transforms
@@ -87,5 +114,6 @@ public class Grabber : MonoBehaviour {
         grabbedTransform.GetComponent<Grabbable>().OnDrop(this);
         
     }
+    
     
 }
