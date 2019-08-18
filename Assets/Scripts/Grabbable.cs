@@ -20,6 +20,7 @@ public class Grabbable : MonoBehaviour {
     private Grabber myHand;
     private SnapOnGrab snap;
 
+    [HideInInspector]
     public Handedness handedness;
     public UnityEvent onSpecialGrab;
     public UnityEvent onSpecialDrop;

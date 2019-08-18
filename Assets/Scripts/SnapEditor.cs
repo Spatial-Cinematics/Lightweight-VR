@@ -8,6 +8,8 @@ public class SnapEditor : Editor
 {
     public override void OnInspectorGUI() {
 
+        base.OnInspectorGUI();
+        
         SnapOnGrab snap = (SnapOnGrab) target;
         
         if (GUILayout.Button("Bake Snap Orientation")) {

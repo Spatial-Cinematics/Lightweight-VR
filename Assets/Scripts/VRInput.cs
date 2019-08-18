@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum VRButton {RightIndex, RightHand, RightThumbHorizontal, RightThumbVertical, RightThumbClick, 
-    LeftIndex, LeftHand, LeftThumbHorizontal, LeftThumbVertical, LeftThumbClick, A, B, X, Y}
+    LeftIndex, LeftHand, LeftThumbHorizontal, LeftThumbVertical, LeftThumbClick, A, B, X, Y, Menu, Home}
 
 public class VRInput : MonoBehaviour {
 
@@ -11,8 +11,8 @@ public class VRInput : MonoBehaviour {
         return Input.GetAxis(input.ToString());
     }
 
-    public static void GetDown(VRButton input) {
-
+    public static bool GetOnce(VRButton input) {
+        return Input.GetAxis(input.ToString()) > 0;
     }
 }
 

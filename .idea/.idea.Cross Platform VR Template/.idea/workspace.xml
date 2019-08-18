@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae937eb9-9c36-4cc6-89fa-dd82ab4271ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cross Platform VR Template/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cross Platform VR Template/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cross Platform VR Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cross Platform VR Template/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Demo.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grabbable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grabbable.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grabber.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grabber.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,24 +16,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grabber.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="40" column="62" lean-forward="true" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+            <state relative-caret-position="435">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding>
-                <marker date="1565100955835" expanded="false" signature="6:97" ph="..." />
-                <marker date="1565100955835" expanded="true" signature="180:2222" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="452:499" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="518:934" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="734:817" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="853:927" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="1047:1231" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="1280:1459" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="1485:2040" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="1688:1839" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="1866:2025" ph="{...}" />
-                <marker date="1565100955835" expanded="true" signature="2065:2215" ph="{...}" />
+                <marker date="1566154534351" expanded="false" signature="6:97" ph="..." />
+                <marker date="1566154534351" expanded="true" signature="180:2372" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="452:499" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="518:1084" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="702:773" ph="/* if (VRInput.GetOnce(VRButton.LeftHand)) ... */" />
+                <marker date="1566154534351" expanded="true" signature="884:967" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="1003:1077" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="1197:1381" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="1430:1609" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="1635:2190" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="1838:1989" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="2016:2175" ph="{...}" />
+                <marker date="1566154534351" expanded="true" signature="2215:2365" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -45,14 +43,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grabbable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+            <state relative-caret-position="330">
+              <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
               <folding>
-                <marker date="1565060495531" expanded="false" signature="6:231" ph="..." />
-                <marker date="1565060495531" expanded="true" signature="392:1454" ph="{...}" />
-                <marker date="1565060495531" expanded="true" signature="609:699" ph="{...}" />
-                <marker date="1565060495531" expanded="true" signature="742:1176" ph="{...}" />
-                <marker date="1565060495531" expanded="true" signature="1215:1447" ph="{...}" />
+                <marker date="1566152916028" expanded="false" signature="6:231" ph="..." />
+                <marker date="1566152916028" expanded="true" signature="392:1476" ph="{...}" />
+                <marker date="1566152916028" expanded="true" signature="631:721" ph="{...}" />
+                <marker date="1566152916028" expanded="true" signature="764:1198" ph="{...}" />
+                <marker date="1566152916028" expanded="true" signature="1237:1469" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -61,14 +59,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="240">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
-                <marker date="1565099187137" expanded="true" signature="6:97" ph="..." />
-                <marker date="1565099187137" expanded="true" signature="166:1137" ph="{...}" />
-                <marker date="1565099187137" expanded="true" signature="211:367" ph="{...}" />
-                <marker date="1565099187137" expanded="true" signature="325:360" ph="{...}" />
-                <marker date="1565099187137" expanded="true" signature="408:1130" ph="{...}" />
+                <marker date="1566153332859" expanded="false" signature="6:97" ph="..." />
+                <marker date="1566153332859" expanded="true" signature="166:1177" ph="{...}" />
+                <marker date="1566153332859" expanded="true" signature="211:407" ph="{...}" />
+                <marker date="1566153332859" expanded="true" signature="365:400" ph="{...}" />
+                <marker date="1566153332859" expanded="true" signature="448:1170" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -78,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapOnGrab.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
               <folding>
                 <marker date="1565050794941" expanded="true" signature="6:78" ph="..." />
                 <marker date="1565050794941" expanded="true" signature="158:857" ph="{...}" />
@@ -90,17 +88,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <marker date="1565100899856" expanded="false" signature="6:78" ph="..." />
-                <marker date="1565100899856" expanded="true" signature="101:277" ph="{...}" />
-                <marker date="1565100899856" expanded="true" signature="316:477" ph="{...}" />
-                <marker date="1565100899856" expanded="true" signature="363:418" ph="{...}" />
-                <marker date="1565100899856" expanded="true" signature="467:475" ph="{...}" />
+                <marker date="1566154643356" expanded="false" signature="6:78" ph="..." />
+                <marker date="1566154643356" expanded="true" signature="101:289" ph="{...}" />
+                <marker date="1566154643356" expanded="true" signature="328:540" ph="{...}" />
+                <marker date="1566154643356" expanded="true" signature="375:430" ph="{...}" />
+                <marker date="1566154643356" expanded="true" signature="479:538" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -113,7 +111,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grabber.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Accomplice/unity-ios/Unity/Assets/Scripts/BridgeEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnapOnGrab.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,8 +124,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SnapOnGrab.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grabbable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Grabber.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VRInput.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +141,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
@@ -169,9 +169,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -225,11 +222,12 @@
       <workItem from="1564949706022" duration="145000" />
       <workItem from="1564949869574" duration="6598000" />
       <workItem from="1565028667104" duration="18213000" />
+      <workItem from="1566152850387" duration="1793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27396000" />
+    <option name="totallyTimeSpent" value="29189000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -244,7 +242,7 @@
     <frame x="3613" y="364" width="2186" height="1196" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16698025" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16839135" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -713,17 +711,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Accomplice/unity-ios/Unity/Assets/Scripts/BridgeEditor.cs">
+    <entry file="file://$PROJECT_DIR$/../Accomplice/unity-ios/Unity/Assets/Scripts/BridgeEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1566153332859" expanded="false" signature="6:97" ph="..." />
+            <marker date="1566153332859" expanded="true" signature="166:1177" ph="{...}" />
+            <marker date="1566153332859" expanded="true" signature="211:407" ph="{...}" />
+            <marker date="1566153332859" expanded="true" signature="365:400" ph="{...}" />
+            <marker date="1566153332859" expanded="true" signature="448:1170" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapOnGrab.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
           <folding>
             <marker date="1565050794941" expanded="true" signature="6:78" ph="..." />
             <marker date="1565050794941" expanded="true" signature="158:857" ph="{...}" />
@@ -734,65 +740,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="4" lean-forward="true" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-          <folding>
-            <marker date="1565099187137" expanded="true" signature="6:97" ph="..." />
-            <marker date="1565099187137" expanded="true" signature="166:1137" ph="{...}" />
-            <marker date="1565099187137" expanded="true" signature="211:367" ph="{...}" />
-            <marker date="1565099187137" expanded="true" signature="325:360" ph="{...}" />
-            <marker date="1565099187137" expanded="true" signature="408:1130" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grabbable.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="330">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
-            <marker date="1565060495531" expanded="false" signature="6:231" ph="..." />
-            <marker date="1565060495531" expanded="true" signature="392:1454" ph="{...}" />
-            <marker date="1565060495531" expanded="true" signature="609:699" ph="{...}" />
-            <marker date="1565060495531" expanded="true" signature="742:1176" ph="{...}" />
-            <marker date="1565060495531" expanded="true" signature="1215:1447" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <marker date="1565100899856" expanded="false" signature="6:78" ph="..." />
-            <marker date="1565100899856" expanded="true" signature="101:277" ph="{...}" />
-            <marker date="1565100899856" expanded="true" signature="316:477" ph="{...}" />
-            <marker date="1565100899856" expanded="true" signature="363:418" ph="{...}" />
-            <marker date="1565100899856" expanded="true" signature="467:475" ph="{...}" />
+            <marker date="1566152916028" expanded="false" signature="6:231" ph="..." />
+            <marker date="1566152916028" expanded="true" signature="392:1476" ph="{...}" />
+            <marker date="1566152916028" expanded="true" signature="631:721" ph="{...}" />
+            <marker date="1566152916028" expanded="true" signature="764:1198" ph="{...}" />
+            <marker date="1566152916028" expanded="true" signature="1237:1469" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Grabber.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="40" column="62" lean-forward="true" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+        <state relative-caret-position="435">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
-            <marker date="1565100955835" expanded="false" signature="6:97" ph="..." />
-            <marker date="1565100955835" expanded="true" signature="180:2222" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="452:499" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="518:934" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="734:817" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="853:927" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="1047:1231" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="1280:1459" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="1485:2040" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="1688:1839" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="1866:2025" ph="{...}" />
-            <marker date="1565100955835" expanded="true" signature="2065:2215" ph="{...}" />
+            <marker date="1566154534351" expanded="false" signature="6:97" ph="..." />
+            <marker date="1566154534351" expanded="true" signature="180:2372" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="452:499" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="518:1084" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="702:773" ph="/* if (VRInput.GetOnce(VRButton.LeftHand)) ... */" />
+            <marker date="1566154534351" expanded="true" signature="884:967" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="1003:1077" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="1197:1381" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="1430:1609" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="1635:2190" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="1838:1989" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="2016:2175" ph="{...}" />
+            <marker date="1566154534351" expanded="true" signature="2215:2365" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/VRInput.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <marker date="1566154643356" expanded="false" signature="6:78" ph="..." />
+            <marker date="1566154643356" expanded="true" signature="101:289" ph="{...}" />
+            <marker date="1566154643356" expanded="true" signature="328:540" ph="{...}" />
+            <marker date="1566154643356" expanded="true" signature="375:430" ph="{...}" />
+            <marker date="1566154643356" expanded="true" signature="479:538" ph="{...}" />
           </folding>
         </state>
       </provider>

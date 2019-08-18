@@ -23,8 +23,11 @@ public class Grabber : MonoBehaviour {
     void Update()
     {
         //check input for this hand instance
-        float grabValue = handedness == Handedness.Left ? VRInput.Get(VRButton.LeftHand) : VRInput.Get(VRButton.RightHand);
+        float grabValue = VRInput.Get(handedness == Handedness.Left ? VRButton.LeftHand : VRButton.RightHand);
 
+        if (VRInput.GetOnce(VRButton.RightHand))
+            Debug.Break();
+        
         if (grabValue > grabThreshold) { //grab input
             if (!grabbedTransform)
                 Grab();
