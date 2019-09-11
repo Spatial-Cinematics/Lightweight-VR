@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.XR;
 
 
 [RequireComponent(typeof(SphereCollider))]
@@ -18,6 +19,7 @@ public class Grabber : MonoBehaviour {
     private float inputThreshold = .5f; // pulled half way
 
     private float indexInput, handInput;
+    
     
     #region Reference Grabable Items
 
@@ -47,21 +49,30 @@ public class Grabber : MonoBehaviour {
     #endregion
     
     private void Start() {
+        
         rb = GetComponent<Rigidbody>();
+        VRInput.OnButton += Test;
+
+
     }
 
     void Update()
     {
-        
         UpdateInputs();
         CheckGrab();
         
     }
 
+    public void Test(VRButton button) {
+        if (button == VRButton.RightIndex) {
+            print("SHOOT");
+        }
+    }
+
     private void UpdateInputs() {
 
-        handInput = VRInput.Get(GenericVRButton.Hand, handedness);
-        indexInput = VRInput.Get(GenericVRButton.Index, handedness);
+        handInput = VRInput.GetAxis(GenericVRButton.Hand, handedness);
+        indexInput = VRInput.GetAxis(GenericVRButton.Index, handedness);
 
     }
 

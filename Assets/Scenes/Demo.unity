@@ -121,6 +121,49 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &42874960
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42874962}
+  - component: {fileID: 42874961}
+  m_Layer: 0
+  m_Name: VR Input
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &42874961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42874960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22c4651223863854086b58f3ffc03031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &42874962
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42874960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &154240647
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,6 +198,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handedness: 0
+  onUse:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onSpecialGrab:
     m_PersistentCalls:
       m_Calls: []
@@ -252,7 +300,7 @@ Transform:
   m_LocalScale: {x: 0.10546, y: 0.10546, z: 0.10546}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &200327157
 GameObject:
@@ -473,6 +521,7 @@ MonoBehaviour:
   grabbedTransform: {fileID: 0}
   handedness: 2
   inRange: []
+  inputThreshold: 0.5
 --- !u!114 &229635607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,6 +701,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handedness: 0
+  onUse:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
   onSpecialGrab:
     m_PersistentCalls:
       m_Calls: []
@@ -749,7 +803,7 @@ Transform:
   m_LocalScale: {x: 0.10546, y: 0.28181398, z: 0.10546003}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: -3.1250002, y: 0, z: 0}
 --- !u!1 &343057618
 GameObject:
@@ -841,7 +895,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &435616967
 GameObject:
@@ -1089,7 +1143,7 @@ Transform:
   m_LocalScale: {x: 0.50895, y: 1, z: 0.61379}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -7.6940002, z: 0}
 --- !u!1 &1266773205
 GameObject:
@@ -1181,7 +1235,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.70427, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1284983688 stripped
 GameObject:
@@ -1210,6 +1264,7 @@ MonoBehaviour:
   grabbedTransform: {fileID: 0}
   handedness: 1
   inRange: []
+  inputThreshold: 0.5
 --- !u!114 &1284983691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1373,7 +1428,7 @@ Transform:
   m_Children:
   - {fileID: 1026625944}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1988560120
 MonoBehaviour:
