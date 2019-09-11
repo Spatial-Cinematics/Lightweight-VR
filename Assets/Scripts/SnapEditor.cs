@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR
+using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+using UnityEditor;
+
 
 [CustomEditor(typeof(SnapOnGrab))]
 public class SnapEditor : Editor
@@ -36,5 +38,6 @@ public class SnapEditor : Editor
         transform.parent = tmpParent;
 
     }
-    
 }
+#endif
+

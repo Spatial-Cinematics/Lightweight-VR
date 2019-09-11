@@ -19,7 +19,8 @@ public class Grabber : MonoBehaviour {
     private float inputThreshold = .5f; // pulled half way
 
     private float indexInput, handInput;
-    
+
+    public GameObject deleteThisPrefab;
     
     #region Reference Grabable Items
 
@@ -51,22 +52,19 @@ public class Grabber : MonoBehaviour {
     private void Start() {
         
         rb = GetComponent<Rigidbody>();
-        VRInput.OnButton += Test;
-
 
     }
 
     void Update()
     {
-        UpdateInputs();
+        //UpdateInputs();
+        if (VRInput.GetDown(VRButton.RightIndex)) {
+            print("SHOOTING");
+            Destroy(Instantiate(deleteThisPrefab, transform.position, transform.rotation, transform), 5f);
+        }
+
         CheckGrab();
         
-    }
-
-    public void Test(VRButton button) {
-        if (button == VRButton.RightIndex) {
-            print("SHOOT");
-        }
     }
 
     private void UpdateInputs() {

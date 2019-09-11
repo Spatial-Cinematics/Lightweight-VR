@@ -522,6 +522,8 @@ MonoBehaviour:
   handedness: 2
   inRange: []
   inputThreshold: 0.5
+  deleteThisPrefab: {fileID: 7836179033172840680, guid: 8d9cf356f6dd343939dcb87a0a3e4cb9,
+    type: 3}
 --- !u!114 &229635607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1265,6 +1267,8 @@ MonoBehaviour:
   handedness: 1
   inRange: []
   inputThreshold: 0.5
+  deleteThisPrefab: {fileID: 7836179033172840680, guid: 8d9cf356f6dd343939dcb87a0a3e4cb9,
+    type: 3}
 --- !u!114 &1284983691
 MonoBehaviour:
   m_ObjectHideFlags: 0
