@@ -17,7 +17,7 @@ public class VRInput : MonoBehaviour {
         VRButton.RightIndex, VRButton.LeftIndex
     };
 
-    private static Dictionary<VRButton, bool> axesGet = new Dictionary<VRButton, bool>() {
+    private static Dictionary<VRButton, bool> axisAvailable = new Dictionary<VRButton, bool>() {
         {VRButton.LeftHand, false}, {VRButton.RightHand, false}, 
         {VRButton.LeftIndex, false}, {VRButton.RightIndex, false}
     };
@@ -25,10 +25,10 @@ public class VRInput : MonoBehaviour {
     #endregion
     
     //reset input flags
-    private void LateUpdate() {
+    private void Update() {
         foreach (VRButton axis in axesThatAreButtons) 
-            if (Input.GetAxisRaw(axis.ToString()) > 0) //input axis not being recieved
-                axesGet[axis] = false; //next input should be unique - GetDown can be called
+            if (Input.GetAxisRaw(axis.ToString()) <= 0) //input axis not being recieved
+                axisAvailable[axis] = true; //next input should be unique - GetDown can be called
     }
     
     #region methods
@@ -82,12 +82,20 @@ public class VRInput : MonoBehaviour {
         
         if (GetAxisRaw(input) > 0) { //input recieved
             print(input + " held");
-            if (!axesGet[input]) { //input is new (wasn't previously being held
+            if (axisAvailable[input]) { //input is new (wasn't previously being held
                 print(input + " pressed");
-                axesGet[input] = true;
+                axisAvailable[input] = false;
                 return true;
             }
         }
+
+        return false;
+
+    }
+    public static bool GetDown(GenericVRButton input, Handedness handedness) {
+
+        VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
+        return GetDown(vrButton);
 
         return false;
 

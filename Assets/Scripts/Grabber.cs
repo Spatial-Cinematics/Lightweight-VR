@@ -55,10 +55,10 @@ public class Grabber : MonoBehaviour {
 
     }
 
-    void Update()
+    void LateUpdate()
     {
         //UpdateInputs();
-        if (VRInput.GetDown(VRButton.RightIndex)) {
+        if (VRInput.GetDown(GenericVRButton.Index, handedness)) {
             print("SHOOTING");
             Destroy(Instantiate(deleteThisPrefab, transform.position, transform.rotation, transform), 5f);
         }
