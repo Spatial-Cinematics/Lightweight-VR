@@ -81,9 +81,7 @@ public class VRInput : MonoBehaviour {
     public static bool GetDown(VRButton input) {
         
         if (GetAxisRaw(input) > 0) { //input recieved
-            print(input + " held");
             if (axisAvailable[input]) { //input is new (wasn't previously being held
-                print(input + " pressed");
                 axisAvailable[input] = false;
                 return true;
             }
@@ -96,6 +94,21 @@ public class VRInput : MonoBehaviour {
 
         VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
         return GetDown(vrButton);
+
+        return false;
+
+    }
+    
+    public static bool GetUp(VRButton input) {
+        
+        if (GetAxisRaw(input) <= 0) { //trigger/button is released
+            print(input + " released");
+            if (!axisAvailable[input]) { //input is new (wasn't previously being held
+                print(input + " was released after a press");
+                axisAvailable[input] = true;
+                return true;
+            }
+        }
 
         return false;
 
