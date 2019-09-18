@@ -55,42 +55,8 @@ public class Grabber : MonoBehaviour {
 
     }
 
-    void LateUpdate()
-    {
-        //UpdateInputs();
-        if (VRInput.GetDown(GenericVRButton.Index, handedness)) {
-            print("SHOOTING");
-            Destroy(Instantiate(deleteThisPrefab, transform.position, transform.rotation, transform), 5f);
-        }
-
-        CheckGrab();
-        
-    }
-
-    private void UpdateInputs() {
-
-        handInput = VRInput.GetAxis(GenericVRButton.Hand, handedness);
-        indexInput = VRInput.GetAxis(GenericVRButton.Index, handedness);
-
-    }
-
     private void CheckGrab() {
 
-        if (grabbedTransform) {
-
-            if (indexInput > inputThreshold) 
-                UseGrabbed();
-            
-            
-            if (handInput < inputThreshold)
-                Drop();
-            
-        } else {
-            
-            if (handInput > inputThreshold)
-                Grab();
-            
-        }
     }
 
     private void UseGrabbed() {

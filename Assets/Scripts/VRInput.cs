@@ -97,8 +97,6 @@ public class VRInput : MonoBehaviour {
         VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
         return GetDown(vrButton);
 
-        return false;
-
     }
     
     #endregion
