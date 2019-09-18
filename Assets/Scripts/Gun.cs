@@ -17,11 +17,9 @@ public class Gun : MonoBehaviour {
 
     
     void Update() {
-
-        if (VRInput.GetDown(GenericVRButton.Index, handedness)) {
+        if (VRInput.GetDown(GenericVRButton.Index, handedness)) 
             Shoot();
-        }
-
+        
     }
 
     private void Shoot() {

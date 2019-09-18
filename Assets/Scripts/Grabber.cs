@@ -55,9 +55,16 @@ public class Grabber : MonoBehaviour {
 
     }
 
-    private void CheckGrab() {
-
+    private void Update() {
+        
+        if (VRInput.GetDown(GenericVRButton.Hand, handedness)) {
+            Grab();
+        } else if (VRInput.GetUp(GenericVRButton.Hand, handedness)) {
+            Drop();
+        }
+        
     }
+
 
     private void UseGrabbed() {
         grabbedTransform.GetComponent<MeshRenderer>().material.color = Random.ColorHSV();
