@@ -55,31 +55,16 @@ public class Grabber : MonoBehaviour {
 
     }
 
-    void LateUpdate()
-    {
+    private void Update() {
         
-        if (VRInput.GetDown(VRButton.RightIndex)) {
-            Shoot();
-        }
-
-        if (VRInput.GetUp(VRButton.RightIndex)) {
-            Shoot();
+        if (VRInput.GetDown(GenericVRButton.Hand, handedness)) {
+            Grab();
+        } else if (VRInput.GetUp(GenericVRButton.Hand, handedness)) {
+            Drop();
         }
         
-        //CheckGrab();
-        
     }
 
-    private void Shoot() {
-        Destroy(Instantiate(deleteThisPrefab, transform.position, transform.rotation), 5f);
-    }
-    
-    private void CheckGrab() {
-
-        //if (VRInput.GetDown()) {
-            
-        //}
-    }
 
     private void UseGrabbed() {
         grabbedTransform.GetComponent<MeshRenderer>().material.color = Random.ColorHSV();
