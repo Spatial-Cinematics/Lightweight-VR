@@ -14,7 +14,7 @@ public class SnapEditor : Editor
         
         SnapOnGrab snap = (SnapOnGrab) target;
         
-        if (GUILayout.Button("Bake Snap Orientation")) {
+        if (GUILayout.Button("Bake Snap Orientation Relative To Hand")) {
             Bake(snap);
         }
 

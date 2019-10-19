@@ -16,7 +16,6 @@ public enum Handedness {None, Left, Right}
 [RequireComponent(typeof(Rigidbody))]
 public class Grabbable : MonoBehaviour {
 
-    private Rigidbody rb;
     private Grabber myHand;
     private SnapOnGrab snap;
 
@@ -25,6 +24,7 @@ public class Grabbable : MonoBehaviour {
     public UnityEvent onUse;
     public UnityEvent onSpecialGrab;
     public UnityEvent onSpecialDrop;
+    public Rigidbody rb { get; private set; }
     
     void Start() {
         rb = GetComponent<Rigidbody>();
