@@ -5,26 +5,16 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour {
     
-    private Handedness handedness;
-    private Grabber myGrabber;
+    [SerializeField]
+    private Transform muzzle;
+    [SerializeField]
+    private GameObject bulletPrefab;
+    [SerializeField]
+    private float bulletLiftime = 2;
 
-    public GameObject bullet;
-
-    private void Start() {
-        myGrabber = GetComponent<Grabber>();
-        handedness = myGrabber.handedness;
-    }
-
-    
-    void Update() {
-        if (VRInput.GetDown(GenericVRButton.Index, handedness)) 
-            Shoot();
+    public void Shoot() {
         
-    }
-
-    private void Shoot() {
-        
-        Destroy(Instantiate(bullet, transform.position, transform.rotation), 2f);
+        Destroy(Instantiate(bulletPrefab, muzzle.position, muzzle.rotation), bulletLiftime);
         
     }
     

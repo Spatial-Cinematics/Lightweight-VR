@@ -5,6 +5,7 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Serialization;
@@ -21,6 +22,8 @@ public class Grabbable : MonoBehaviour {
 
     [HideInInspector]
     public Handedness handedness;
+    public bool inputIsDiscrete = true;
+    public GenericVRButton useButton = GenericVRButton.Index;
     public UnityEvent onUse;
     public UnityEvent onSpecialGrab;
     public UnityEvent onSpecialDrop;
@@ -61,6 +64,17 @@ public class Grabbable : MonoBehaviour {
         transform.parent = null;
         
         onSpecialDrop?.Invoke();
+        
+    }
+
+    public void CheckForUse() {
+
+        if (inputIsDiscrete && VRInput.GetDown(useButton, handedness)) {
+            onUse.Invoke();
+        } else if (!inputIsDiscrete && VRInput.Get(useButton, handedness)) {
+            onUse.Invoke();
+        }
+            
         
     }
 

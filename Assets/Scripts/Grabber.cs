@@ -12,7 +12,6 @@ public class Grabber : MonoBehaviour {
     [HideInInspector]
     public Transform grabbedTransform;
     public Handedness handedness;
-    public GameObject deleteThisPrefab;
     public Material glowMaterial;
     
     [SerializeField, HideInInspector]
@@ -27,6 +26,7 @@ public class Grabber : MonoBehaviour {
     private Dictionary<GameObject, Material> materials = new Dictionary<GameObject, Material>();
     private Vector3 currentPos, lastPos, velocity;
     private Queue<Vector3> velocityInputs = new Queue<Vector3>(); //calculate to handle throwing
+    private Grabbable grabbedComponent;
     
 
     private void Update() {
@@ -39,14 +39,12 @@ public class Grabber : MonoBehaviour {
         } else if (VRInput.GetUp(GenericVRButton.Hand, handedness)) {
             Drop();
         }
-        
+
+        if (grabbedComponent)
+            grabbedComponent.CheckForUse();
+
     }
 
-
-    private void UseGrabbed() {
-        grabbedTransform.GetComponent<MeshRenderer>().material.color = Random.ColorHSV();
-    }
-    
     private void Grab() {
         
             //closest grabbable transform out of in range grabbable transforms
@@ -60,10 +58,21 @@ public class Grabber : MonoBehaviour {
 
             if (closest) { // an item is in range - pick it up
                 grabbedTransform = closest;
-                closest.GetComponent<Grabbable>().OnGrab(this);
+                grabbedComponent = grabbedTransform.GetComponent<Grabbable>();
+                grabbedComponent.OnGrab(this);
                 //REMOVE FROM IN RANGE TO STOP HIGHLIGHT
             }
+    }
+    
+    public void Drop() {
         
+        if (!grabbedTransform)
+            return;
+
+        grabbedComponent.rb.velocity = velocity * throwPower;
+        grabbedComponent.OnDrop(this);
+        grabbedComponent = null;
+
     }
 
     private void UpdateVelocity() {
@@ -83,18 +92,6 @@ public class Grabber : MonoBehaviour {
         
         lastPos = currentPos;
 
-    }
-
-    public void Drop() {
-        
-        if (!grabbedTransform)
-            return;
-
-        Grabbable g = grabbedTransform.GetComponent<Grabbable>();
-        g.rb.velocity = velocity * throwPower;
-        g.OnDrop(this);
-        
-        
     }
     
     #region Reference Grabbable Items

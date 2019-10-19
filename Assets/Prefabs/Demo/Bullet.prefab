@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 7836179033172840680}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.2245}
-  m_LocalScale: {x: 0.70936, y: 0.70936, z: 0.55100244}
+  m_LocalScale: {x: 0.70936, y: 0.70936, z: 0.18379237}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -80,8 +80,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.035442352
-        value: 0.40449524
+        time: 0.4478714
+        value: 0.18091106
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -97,7 +97,7 @@ LineRenderer:
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 1}
       key3: {r: 0, g: 0, b: 0, a: 1}
-      key4: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 1}
       key5: {r: 0, g: 0, b: 0, a: 0}
       key6: {r: 0, g: 0, b: 0, a: 0}
       key7: {r: 0, g: 0, b: 0, a: 0}
@@ -110,16 +110,16 @@ LineRenderer:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 14071
+      atime1: 44911
       atime2: 55319
-      atime3: 65535
-      atime4: 0
+      atime3: 60524
+      atime4: 65535
       atime5: 0
       atime6: 0
       atime7: 0
       m_Mode: 0
       m_NumColorKeys: 2
-      m_NumAlphaKeys: 4
+      m_NumAlphaKeys: 5
     numCornerVertices: 0
     numCapVertices: 0
     alignment: 0
