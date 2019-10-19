@@ -14,6 +14,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Bullet.cs" t="Include" />
+          <e p="Demos" t="Include">
+            <e p="Shooter" t="Include">
+              <e p="Enemy.cs" t="Include" />
+              <e p="EnemySpawner.cs" t="Include" />
+              <e p="MoveOnGrab.cs" t="Include" />
+            </e>
+          </e>
           <e p="ExtensionMethods" t="Include">
             <e p="AudioSourceExtensions.cs" t="Include" />
             <e p="FloatExtensions.cs" t="Include" />
@@ -25,10 +33,10 @@
             <e p="TransformExtension.cs" t="Include" />
             <e p="Vector3Extensions.cs" t="Include" />
           </e>
+          <e p="FlipNormals.cs" t="Include" />
           <e p="Grabbable.cs" t="Include" />
           <e p="Grabber.cs" t="Include" />
           <e p="Gun.cs" t="Include" />
-          <e p="Laser.cs" t="Include" />
           <e p="Locomotion.cs" t="Include" />
           <e p="SnapEditor.cs" t="Include" />
           <e p="SnapOnGrab.cs" t="Include" />
