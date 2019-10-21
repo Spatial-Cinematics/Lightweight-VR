@@ -5,27 +5,19 @@ using UnityEngine;
 public class Locomotion : MonoBehaviour {
 
     [SerializeField]
-    private float  maxSpeed = 2;
+    private float speed = 10;
     [SerializeField]
-    private float acceleration = 1;
+    private VRAxis2D moveInput = VRAxis2D.LeftThumb;
+
+    private Transform playerHead;
     
-    private Vector3 velocity = Vector3.zero;
-    
+    private void Start() {
+        playerHead = Camera.main.transform;
+    }
+
     private void Update() {
 
-        Vector3 newVel = Vector3.Lerp(velocity, Vector3.zero, acceleration);
-
-        float x = VRInput.GetAxis(VRButton.LeftThumbHorizontal);
-        float z = VRInput.GetAxis(VRButton.LeftThumbVertical);
-
-        print("X: " + x);
-        print("Z: " + z);
-        
-        newVel.x += x;
-        newVel.z += z;
-
-        velocity = Vector3.ClampMagnitude(newVel, maxSpeed);
-        transform.Translate(velocity * Time.deltaTime);
+        Vector2 velocity = VRInput.GetAxis2D(moveInput);
 
     }
 }
