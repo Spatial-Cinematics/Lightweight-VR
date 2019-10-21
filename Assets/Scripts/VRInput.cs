@@ -1,66 +1,177 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
+public enum VRButton {RightIndex, RightHand, LeftIndex, LeftHand, 
+     RightThumbClick, LeftThumbClick, A, B, X, Y, Menu, Home}
+
+public enum VRAxis {RightIndex, RightHand, LeftIndex, LeftHand,
+    LeftThumbHorizontal, LeftThumbVertical, RightThumbHorizontal, RightThumbVertical}
+
+public enum GenericVRAxis {ThumbVertical, ThumbHorizontal}
+
+public enum VRAxis2D {RightThumb, LeftThumb}
+
+public enum GenericVRAxis2D {Thumb}
+
+public enum GenericVRButton{Index, Hand, ThumbClick}
+
 public class VRInput : MonoBehaviour {
-   
-    public static float RightIndex() {
-        return Input.GetAxis("Oculus_CrossPlatform_SecondaryIndexTrigger");
+
+    #region properties
+    
+    private VRAxis[] axesThatAreButtons = {
+        VRAxis.RightHand, VRAxis.LeftHand,
+        VRAxis.RightIndex, VRAxis.LeftIndex
+    };
+
+    private static Dictionary<VRAxis, bool> axisAvailable = new Dictionary<VRAxis, bool>() {
+        {VRAxis.LeftHand, false}, {VRAxis.RightHand, false}, 
+        {VRAxis.LeftIndex, false}, {VRAxis.RightIndex, false}
+    };
+    
+    private static Dictionary<VRAxis, bool> axisWasBeingHeld = new Dictionary<VRAxis, bool>() {
+        {VRAxis.LeftHand, false}, {VRAxis.RightHand, false}, 
+        {VRAxis.LeftIndex, false}, {VRAxis.RightIndex, false}
+    };
+    
+    #endregion
+    
+    //reset input flags
+    private void Update() {
+        foreach (VRAxis axis in axesThatAreButtons) {
+            if (Input.GetAxisRaw(axis.ToString()) <= 0) //input axis not being recieved
+                axisAvailable[axis] = true; //next input should be unique - GetDown can be called
+            else { //input is being recieved
+                axisWasBeingHeld[axis] = true; //next input should be unique - GetUp can be called
+            }
+        }
     }
-    public static float LeftIndex() {
-        return Input.GetAxis("Oculus_CrossPlatform_PrimaryIndexTrigger");
-    }
-    public static float RightHand() {
-        return Input.GetAxis("Oculus_CrossPlatform_SecondaryHandTrigger");
-    }
-    public static float LeftHand() {
-        return Input.GetAxis("Oculus_CrossPlatform_PrimaryHandTrigger");
+    
+    #region methods
+
+    public static float GetAxis(VRAxis input) {
+        return Input.GetAxis(input.ToString());
     }
 
-    public static float RightThumbHorizontal() {
-        return Input.GetAxis("Oculus_CrossPlatform_SecondaryThumbstickHorizontal");
-    }
-    
-    public static float RightThumbVertical() {
-        return Input.GetAxis("Oculus_CrossPlatform_SecondaryThumbstickVertical");
-    }
-    
-    public static float LeftThumbHorizontal() {
-        return Input.GetAxis("Oculus_CrossPlatform_PrimaryThumbstickHorizontal");
-    }
-    
-    public static float LeftThumbVertical() {
-        return Input.GetAxis("Oculus_CrossPlatform_PrimaryThumbstickVertical");
+    public static float GetAxis(GenericVRAxis input, Handedness handedness) {
+
+        if (handedness == Handedness.None) {
+            Debug.LogError("Handedness not set");
+            return 0;
+        }
+        
+        return Input.GetAxis(handedness.ToString() + input.ToString());
+        
     }
 
-    public static bool A() {
-        return Input.GetButton("Oculus_CrossPlatform_A");
+    public static Vector2 GetAxis2D(VRAxis2D input) {
+
+        float x = Input.GetAxis(input + "Horizontal");
+        float y = Input.GetAxis(input + "Vertical");
+
+        return new Vector2(x,y);
+        
+    }
+
+    public static Vector2 GetAxis2D(VRAxis2D input, Handedness handedness) {
+        
+        float x = Input.GetAxis(handedness.ToString() + input + "Horizontal");
+        float y = Input.GetAxis(handedness.ToString() + input + "Vertical");
+
+        return new Vector2(x,y);
+        
     }
     
-    public static bool B() {
-        return Input.GetButton("Oculus_CrossPlatform_B");
+    public static float GetAxisRaw(VRAxis input) {
+        return Input.GetAxisRaw(input.ToString());
+    }
+
+    public static float GetAxisRaw(GenericVRAxis input, Handedness handedness) {
+
+        if (handedness == Handedness.None) {
+            Debug.LogError("Handedness not set");
+            return 0;
+        }
+        
+        return Input.GetAxisRaw(handedness.ToString() + input.ToString());
+        
+    }
+
+    public static bool Get(VRButton input) {
+        return Input.GetAxisRaw(input.ToString()) > 0;
     }
     
-    public static bool X() {
-        return Input.GetButton("Oculus_CrossPlatform_X");
+    public static bool Get(GenericVRButton input, Handedness handedness) {
+
+        if (handedness == Handedness.None) {
+            Debug.LogError("Handedness not set");
+            return false;
+        }
+        
+        return Math.Abs(Input.GetAxisRaw(handedness.ToString() + input.ToString())) > 0;
+
+    }
+
+    public static bool GetDown(VRButton input) {
+
+        //if cast results in different value then inputs are mutually exclusive
+        VRAxis axisInput = (VRAxis) input;
+
+        if (axisInput.ToString() == input.ToString()) { //input is also an axis
+
+            if (GetAxisRaw(axisInput) > 0) {
+                //input recieved
+                if (axisAvailable[axisInput]) {
+                    //input is new (wasn't previously being held
+                    axisAvailable[axisInput] = false;
+                    return true;
+                }
+            }
+        } else //input is a button
+             return Input.GetButtonDown(input.ToString());
+
+        return false;
+
+    }
+    public static bool GetDown(GenericVRButton input, Handedness handedness) {
+
+        VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
+        return GetDown(vrButton);
+
     }
     
-    public static bool Y() {
-        return Input.GetButton("Oculus_CrossPlatform_Y");
+    public static bool GetUp(VRButton input) {
+
+        VRAxis axisInput = (VRAxis) input;
+
+        if (axisInput.ToString() == input.ToString()) {
+            //input is also an axis
+            if (GetAxisRaw(axisInput) <= 0) {
+                //input not recieved
+                if (axisWasBeingHeld[axisInput]) {
+                    //input is new (wasn't previously being held
+                    axisWasBeingHeld[axisInput] = false;
+                    return true;
+                }
+            }
+        } else {
+            return Input.GetButtonUp(input.ToString());
+        }
+
+        return false;
+
+    }
+    public static bool GetUp(GenericVRButton input, Handedness handedness) {
+
+        VRButton vrButton = (VRButton)Enum.Parse(typeof(VRButton), handedness.ToString() + input.ToString());
+        return GetUp(vrButton);
+
     }
     
-    public static bool RightThumbClick() {
-        return Input.GetButton("Oculus_CrossPlatform_RightThumbClick");
-    }
-    
-    public static bool LeftThumbClick() {
-        return Input.GetButton("Oculus_CrossPlatform_LeftThumbClick");
-    }
-    
+    #endregion
+
 }
 
-
-
-public struct Gesture {
-    private string key;
-}
