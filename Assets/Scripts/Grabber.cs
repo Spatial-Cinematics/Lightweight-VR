@@ -32,7 +32,6 @@ public class Grabber : MonoBehaviour {
     private void Update() {
 
         UpdateVelocity();
-        print(velocityInputs);
         
         if (VRInput.GetDown(GenericVRButton.Hand, handedness)) {
             Grab();
