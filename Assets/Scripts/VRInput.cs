@@ -117,19 +117,21 @@ public class VRInput : MonoBehaviour {
 
     public static bool GetDown(VRButton input) {
 
-        VRAxis axis = (VRAxis) input;
-        
-        if (axis.ToString() == input.ToString()) //input is also an axis
-            if (GetAxisRaw(axis) > 0) {
+        //if cast results in different value then inputs are mutually exclusive
+        VRAxis axisInput = (VRAxis) input;
+
+        if (axisInput.ToString() == input.ToString()) { //input is also an axis
+
+            if (GetAxisRaw(axisInput) > 0) {
                 //input recieved
-                if (axisAvailable[axis]) {
+                if (axisAvailable[axisInput]) {
                     //input is new (wasn't previously being held
-                    axisAvailable[axis] = false;
+                    axisAvailable[axisInput] = false;
                     return true;
                 }
             }
-            else //input is a button
-                return Input.GetButtonDown(input.ToString());
+        } else //input is a button
+             return Input.GetButtonDown(input.ToString());
 
         return false;
 
@@ -142,13 +144,22 @@ public class VRInput : MonoBehaviour {
     }
     
     public static bool GetUp(VRButton input) {
-        /*
-        if (GetAxisRaw(input) <= 0) { //input not recieved
-            if (axisWasBeingHeld[input]) { //input is new (wasn't previously being held
-                axisWasBeingHeld[input] = false;
-                return true;
+
+        VRAxis axisInput = (VRAxis) input;
+
+        if (axisInput.ToString() == input.ToString()) {
+            //input is also an axis
+            if (GetAxisRaw(axisInput) <= 0) {
+                //input not recieved
+                if (axisWasBeingHeld[axisInput]) {
+                    //input is new (wasn't previously being held
+                    axisWasBeingHeld[axisInput] = false;
+                    return true;
+                }
             }
-        }*/
+        } else {
+            return Input.GetButtonUp(input.ToString());
+        }
 
         return false;
 
