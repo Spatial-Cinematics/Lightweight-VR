@@ -24,17 +24,23 @@ public class VRInput : MonoBehaviour {
     
     private VRAxis[] axesThatAreButtons = {
         VRAxis.RightHand, VRAxis.LeftHand,
-        VRAxis.RightIndex, VRAxis.LeftIndex
+        VRAxis.RightIndex, VRAxis.LeftIndex,
+        VRAxis.LeftThumbVertical, VRAxis.RightThumbVertical,
+        VRAxis.LeftThumbHorizontal, VRAxis.RightThumbHorizontal
     };
 
     private static Dictionary<VRAxis, bool> axisAvailable = new Dictionary<VRAxis, bool>() {
         {VRAxis.LeftHand, false}, {VRAxis.RightHand, false}, 
-        {VRAxis.LeftIndex, false}, {VRAxis.RightIndex, false}
+        {VRAxis.LeftIndex, false}, {VRAxis.RightIndex, false},
+        {VRAxis.LeftThumbVertical, false}, {VRAxis.RightThumbVertical, false},
+        {VRAxis.LeftThumbHorizontal, false}, {VRAxis.RightThumbHorizontal, false}
     };
     
     private static Dictionary<VRAxis, bool> axisWasBeingHeld = new Dictionary<VRAxis, bool>() {
         {VRAxis.LeftHand, false}, {VRAxis.RightHand, false}, 
-        {VRAxis.LeftIndex, false}, {VRAxis.RightIndex, false}
+        {VRAxis.LeftIndex, false}, {VRAxis.RightIndex, false},
+        {VRAxis.LeftThumbVertical, false}, {VRAxis.RightThumbVertical, false},
+        {VRAxis.LeftThumbHorizontal, false}, {VRAxis.RightThumbHorizontal, false}
     };
     
     #endregion
@@ -42,7 +48,7 @@ public class VRInput : MonoBehaviour {
     //reset input flags
     private void Update() {
         foreach (VRAxis axis in axesThatAreButtons) {
-            if (Input.GetAxisRaw(axis.ToString()) <= 0) //input axis not being recieved
+            if (Input.GetAxisRaw(axis.ToString()) == 0) //input axis not being recieved
                 axisAvailable[axis] = true; //next input should be unique - GetDown can be called
             else { //input is being recieved
                 axisWasBeingHeld[axis] = true; //next input should be unique - GetUp can be called
@@ -112,6 +118,31 @@ public class VRInput : MonoBehaviour {
         }
         
         return Math.Abs(Input.GetAxisRaw(handedness.ToString() + input.ToString())) > 0;
+
+    }
+
+    //equivalent to GetButtonDown, but for axes
+    public static float GetAxisOnce(VRAxis axisInput, float? inputThreshold = 0.75f) {
+
+        float rawAxisIn = GetAxisRaw(axisInput);
+        
+        if (Mathf.Abs(rawAxisIn) > inputThreshold) {
+            //input recieved
+            if (axisAvailable[axisInput]) {
+                //input is new (wasn't previously being held
+                axisAvailable[axisInput] = false;
+                return Mathf.RoundToInt(rawAxisIn);
+            }
+        }
+
+        return 0;
+
+    }
+    
+    public static float GetAxisOnce(GenericVRAxis axisInput, Handedness handedness, float? inputThreshold = 0.75f) {
+
+        VRAxis vrAxis = (VRAxis)Enum.Parse(typeof(VRAxis), handedness.ToString() + axisInput.ToString());
+        return GetAxisOnce(vrAxis, inputThreshold);
 
     }
 
