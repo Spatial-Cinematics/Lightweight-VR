@@ -17,7 +17,12 @@ public class Locomotion : MonoBehaviour {
 
     private void Update() {
 
-        Vector2 velocity = VRInput.GetAxis2D(moveInput);
+        Vector2 v = VRInput.GetAxis2D(moveInput);
+        Vector3 heading = playerHead.localRotation.eulerAngles;
+        Vector3 velocity = new Vector3(v.x * heading.x, 0, v.y * heading.z);
+
+
+        transform.position += velocity * speed * Time.deltaTime;
 
     }
 }
