@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\clays\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\clays\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_BeatLaser.124505664.00" t="ExcludeRecursive" />
+    <e p="C:\Users\clays\UnityProgs\VRDG\BeatLaser" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Design" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="Hologram.shader" t="Include" />
+            <e p="Rim.shader" t="Include" />
+            <e p="Toon.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="Demo" t="Include">
+            <e p="Gun.cs" t="Include" />
+            <e p="Laser.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Beat.cs" t="Include" />
+          <e p="BeatSpawner.cs" t="Include" />
+          <e p="ExtensionMethods" t="Include">
+            <e p="AudioSourceExtensions.cs" t="Include" />
+            <e p="FloatExtensions.cs" t="Include" />
+            <e p="IntExtensions.cs" t="Include" />
+            <e p="ListExtensions.cs" t="Include" />
+            <e p="MaterialExtensions.cs" t="Include" />
+            <e p="QuaternionExtensions.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+            <e p="TransformExtension.cs" t="Include" />
+            <e p="Vector3Extensions.cs" t="Include" />
+          </e>
+          <e p="Grabbable.cs" t="Include" />
+          <e p="Grabber.cs" t="Include" />
+          <e p="Locomotion.cs" t="Include" />
+          <e p="SnapEditor.cs" t="Include" />
+          <e p="SnapOnGrab.cs" t="Include" />
+          <e p="Util" t="Include">
+            <e p="FlipNormals.cs" t="Include" />
+          </e>
+          <e p="VRInput.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BeatLaser.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
