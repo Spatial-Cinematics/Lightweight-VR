@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\clays\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\clays\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Lightweight-VR.-1324194882.00" t="ExcludeRecursive" />
+    <e p="D:\UnityProgs\Lightweight-VR" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Demo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Bullet.cs" t="Include" />
+            <e p="Gun.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Design" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="Hologram.shader" t="Include" />
+            <e p="Rim.shader" t="Include" />
+            <e p="Toon.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ExtensionMethods" t="Include">
+            <e p="AudioSourceExtensions.cs" t="Include" />
+            <e p="FloatExtensions.cs" t="Include" />
+            <e p="IntExtensions.cs" t="Include" />
+            <e p="ListExtensions.cs" t="Include" />
+            <e p="MaterialExtensions.cs" t="Include" />
+            <e p="QuaternionExtensions.cs" t="Include" />
+            <e p="StringExtensions.cs" t="Include" />
+            <e p="TransformExtension.cs" t="Include" />
+            <e p="Vector3Extensions.cs" t="Include" />
+          </e>
+          <e p="Grabbable.cs" t="Include" />
+          <e p="Grabber.cs" t="Include" />
+          <e p="Locomotion.cs" t="Include" />
+          <e p="SnapEditor.cs" t="Include" />
+          <e p="SnapOnGrab.cs" t="Include" />
+          <e p="Util" t="Include">
+            <e p="FlipNormals.cs" t="Include" />
+          </e>
+          <e p="VRInput.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="Lightweight-VR.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
